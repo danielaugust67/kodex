@@ -1,0 +1,24 @@
+{
+    "require": {
+        "tymon/jwt-auth": "^2.3",
+        "spatie/laravel-permission": "^7.3",
+        "openai-php/laravel": "^0.19.1",
+        "phpoffice/phpword": "^1.4",
+        "league/commonmark": "^2.8",
+        "predis/predis": "^3.4",
+        "probots-io/pinecone-php": "^0.0.3",
+        "laravel/octane": "^2.17"
+    },
+    "config": {
+        "allow-plugins": {
+            "php-http/discovery": true,
+            "pestphp/pest-plugin": true
+        }
+    },
+    "require-dev": {
+        "laravel/telescope": "^5.20",
+        "laravel/pint": "^1.29",
+        "pestphp/pest": "^4.6",
+        "pestphp/pest-plugin-laravel": "^4.1"
+    }
+}
